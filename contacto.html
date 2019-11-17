@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Monos-Contacto</title>
+</head>
+<body>
+
+<div class="banner">
+  <header>
+<div class="container barras">
+      <a href="#" onclick="dropdown();">
+        <img src="img/svg/barras.png" alt="barras">
+      </a>
+
+  <ul id="nav-respo">
+    <li class="nav-item">
+    <a class="nav-link texto-color" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link texto-color" href="trailer.html">Trailer</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link texto-color" href="article.html">Sinópsis</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link texto-color" href="multimedia.html">Multimedia</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link texto-color" href="elenco.html">Elenco</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link texto-color" href="entradas.html">Entradas</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link texto-color" href="contacto.html">Contacto</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link texto-color" href="alumno.html">Alumno</a>
+    </li>
+  </ul>
+              
+</div> <!--Cierra barras-->
+
+  <ul class="nav justify-content-center font-weight-bold">
+      <li class="nav-item">
+        <a class="nav-link texto-color" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link texto-color" href="trailer.html">Trailer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link texto-color" href="article.html">Sinópsis</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link texto-color" href="multimedia.html">Multimedia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link texto-color" href="elenco.html">Elenco</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link texto-color" href="entradas.html">Entradas</a>
+      </li>
+      <li class="nav-item">
+        <a class="item nav-link texto-color" href="contacto.html">Contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link texto-color" href="alumno.html" >Alumno</a>
+      </li>
+    </ul>           
+                  
+    </header>
+    
+    <div class="container formulario texto-color"> 
+      
+      <h2 class="text-center">Contacto</h2>
+
+      <form id="formu" name="formu" class="form-data">
+         <div id="aaa" class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+         </div>
+
+         <div class="form-group">
+            <label for="apellido">Apellido</label>
+            <input type="text" class="form-control" id="apellido" name="apellido"placeholder="Apellido">
+          </div>
+
+          <div class="form-group">
+            <label for="mail">E-mail:</label>
+            <input type="email" class="form-control" id="mail" name="mail" placeholder="Correo electrónico" required>
+           </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea  class="form-control" id="mensaje" placeholder="Deje su mensaje"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="opciones">Motivo</label>
+            <select id="opciones" class="form-control">
+               <option class="opcion" disabled selected>--Selecccione--</option>
+               <option class="opcion">Prensa</option>
+               <option class="opcion">Distribución</option>
+            </select>
+          </div>
+          <button type="button" class="btn" onclick="valida()" >Enviar</button>
+     </form>
+    </div> 
+
+</div><!--Cierra banner-->
+
+<footer class="site-footer">
+            
+        <div class="redes">
+                <a class="face" target="_blank" href="https://www.facebook.com/Monosfilm/"></a>
+                <a class="insta" target="_blank" href="https://www.instagram.com/monosfilm/"></a>
+                <a class="twi" target="_blank" href="https://twitter.com/monosfilm?lang=es"></a>
+        </div>
+
+        <div class="copy text-white">Juan Bohórquez 2019 &copy;</div>
+</footer>
+
+<script type="text/javascript" src="js/monos.js"></script>
+</body>
+</html> 
